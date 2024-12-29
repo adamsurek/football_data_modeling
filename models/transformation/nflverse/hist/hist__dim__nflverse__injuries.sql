@@ -11,7 +11,8 @@
     'season',
     'team',
     'week',
-    'gsis_id'
+    'gsis_id',
+    'date_modified'
 ] -%}
 {%- set data_columns = [
     'season',

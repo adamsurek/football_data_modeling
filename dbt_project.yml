@@ -48,3 +48,4 @@ models:
 
 tests:
   +store_failures: true
+  +schema: tests
