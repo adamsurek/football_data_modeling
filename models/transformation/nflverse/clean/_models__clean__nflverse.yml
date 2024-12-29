@@ -1,0 +1,51 @@
+﻿version: 2
+
+models:
+  
+  - name: clean__dim__nflverse__combine
+    description: abc
+
+  - name: clean__dim__nflverse__depth_charts
+    description: abc
+        
+  - name: clean__dim__nflverse__games
+    description: abc
+  
+  - name: clean__dim__nflverse__injuries
+    description: abc
+
+  - name: clean__dim__nflverse__ngs_passing
+    description: abc
+  
+  - name: clean__dim__nflverse__ngs_receiving
+    description: abc
+  
+  - name: clean__dim__nflverse__ngs_rushing
+    description: abc
+
+  - name: clean__dim__nflverse__play_by_play
+    description: abc
+        
+  - name: clean__dim__nflverse__player_ids
+    description: abc
+
+  - name: clean__dim__nflverse__player_stats_defense
+    description: abc
+
+  - name: clean__dim__nflverse__player_stats_kicking
+    description: abc
+        
+  - name: clean__dim__nflverse__player_stats_offense
+    description: abc
+
+  - name: clean__dim__nflverse__players
+    description: abc
+
+  - name: clean__dim__nflverse__rosters
+    description: abc
+
+  - name: clean__dim__nflverse__snap_counts
+    description: abc
+  
+  - name: clean__dim__nflverse__trades
+    description: abc

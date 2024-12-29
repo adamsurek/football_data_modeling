@@ -1,0 +1,39 @@
+﻿version: 2
+
+sources:
+  - name: nflverse
+    database: warehouse_prod
+    schema: nflverse_staging
+    
+    tables:
+      - name: combine
+        
+      - name: depth_charts
+        
+      - name: games
+        
+      - name: injuries
+      
+      - name: ngs_passing
+        
+      - name: ngs_receiving
+        
+      - name: ngs_rushing
+
+      - name: play_by_play
+        
+      - name: player_ids
+        
+      - name: player_stats
+        
+      - name: player_stats_defense
+        
+      - name: player_stats_kicking
+        
+      - name: players
+      
+      - name: rosters
+      
+      - name: snap_counts
+      
+      - name: trades
