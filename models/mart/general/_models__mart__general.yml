@@ -1,0 +1,6 @@
+﻿version: 2
+
+models:
+  
+  - name: mart__general__passing_stats
+    description: abc

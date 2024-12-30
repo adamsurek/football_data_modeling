@@ -46,6 +46,13 @@ models:
       nflverse:
         +schema: nflverse_presentation
 
+seeds: 
+  FootballDataModeling:
+    +database: warehouse_prod
+    
+    nflverse:
+      +schema: nflverse_transformation
+
 tests:
   +store_failures: true
   +schema: tests
