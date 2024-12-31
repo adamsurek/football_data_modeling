@@ -11,7 +11,7 @@ select
     dts_effective_to,
     {{ clean_integer('season') }} as nfl_season,
     {{ clean_integer('week') }} as nfl_week,
-    {{ clean_string('team') }} as nfl_team_id,
+    {{ clean_string('team') }} as nfl_team_code,
     {{ clean_string('gsis_id') }} as gsis_player_id,
     {{ clean_timestamp('date_modified', 'YYYY-MM-DD"T"HH24:MI:SS"Z"') }} as dts_report_modified,
     {{ clean_string('report_primary_injury') }} as game_injury_primary,

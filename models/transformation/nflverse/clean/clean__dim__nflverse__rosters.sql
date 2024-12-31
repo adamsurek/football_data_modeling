@@ -13,7 +13,7 @@ select
     {{ clean_integer('season') }} as nfl_season,
     {{ clean_integer('week') }} as nfl_week,
     {{ clean_string('game_type') }} as nfl_game_type,
-    {{ clean_string('team') }} as nfl_team_id,
+    {{ clean_string('team') }} as nfl_team_code,
     {{ clean_string('position') }} as team_position,
     {{ clean_string('ngs_position') }} as team_position_next_gen_stats,
     {{ clean_string('depth_chart_position') }} as depth_chart_position,

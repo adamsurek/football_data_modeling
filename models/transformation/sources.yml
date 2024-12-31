@@ -36,4 +36,6 @@ sources:
       
       - name: snap_counts
       
+      - name: teams
+      
       - name: trades

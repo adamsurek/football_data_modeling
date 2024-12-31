@@ -46,6 +46,9 @@ models:
 
   - name: clean__dim__nflverse__snap_counts
     description: abc
+
+  - name: clean__dim__nflverse__teams
+    description: abc
   
   - name: clean__dim__nflverse__trades
     description: abc

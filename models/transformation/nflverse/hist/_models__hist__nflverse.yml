@@ -166,7 +166,18 @@ models:
     tests:
       - one_flag_latest_per_pk
       - one_pk_per_load
-  
+
+  - name: hist__dim__nflverse__teams
+    description: abc
+    columns:
+      - name: sk
+        tests:
+          - unique
+          - not_null
+    tests:
+      - one_flag_latest_per_pk
+      - one_pk_per_load
+        
   - name: hist__dim__nflverse__trades
     description: abc
     columns:

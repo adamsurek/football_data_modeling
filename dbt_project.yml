@@ -36,22 +36,22 @@ models:
     
     transformation:
       nflverse:
-        +schema: nflverse_transformation
+        +schema: transformation_nflverse
       
     mart:
-      nflverse:
-        +schema: nflverse_mart
+      general:
+        +schema: mart_general
       
-    presentation:
-      nflverse:
-        +schema: nflverse_presentation
+#    presentation:
+#      nflverse:
+#        +schema: presentation_nflverse
 
 seeds: 
   FootballDataModeling:
     +database: warehouse_prod
     
     nflverse:
-      +schema: nflverse_transformation
+      +schema: transformation_nflverse
 
 tests:
   +store_failures: true

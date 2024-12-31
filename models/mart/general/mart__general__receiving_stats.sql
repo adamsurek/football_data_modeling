@@ -11,7 +11,7 @@ with
             dts_effective_from,
             nfl_season,
             nfl_week,
-            nfl_team_id,
+            nfl_team_code,
             gsis_player_id,
             nfl_game_type,
             avg_cushion_from_defender,
@@ -38,9 +38,9 @@ with
             gsis_player_id,
             nfl_season,
             nfl_week,
-            nfl_team_id,
+            nfl_team_code,
             nfl_game_type,
-            nfl_team_id_opponent,
+            nfl_team_code_opponent,
             total_receptions,
             total_targets,
             total_receiving_yards,
@@ -67,8 +67,8 @@ select
     t1.nfl_season,
     t1.nfl_week,
     t1.nfl_game_type,
-    t1.nfl_team_id,
-    t2.nfl_team_id_opponent,
+    t1.nfl_team_code,
+    t2.nfl_team_code_opponent,
     t1.gsis_player_id,
     t2.total_receptions,
     t2.total_targets,
@@ -99,6 +99,6 @@ left join
     standard_receiving_stats t2
 on
     t1.gsis_player_id = t2.gsis_player_id and
-    t1.nfl_team_id = t2.nfl_team_id and
+    t1.nfl_team_code = t2.nfl_team_code and
     t1.nfl_season = t2.nfl_season and
     t1.nfl_week = t2.nfl_week

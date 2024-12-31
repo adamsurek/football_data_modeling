@@ -12,7 +12,7 @@ select
     {{ clean_string('player_id') }} as gsis_player_id,
     {{ clean_integer('season') }} as nfl_season,
     {{ clean_integer('week') }} as nfl_week,
-    {{ clean_string('team') }} as nfl_team_id,
+    {{ clean_string('team') }} as nfl_team_code,
     {{ clean_string('season_type') }} as nfl_game_type,
     {{ clean_integer('def_tackles') }} as total_tackles,
     {{ clean_integer('def_tackles_solo') }} as total_solo_tackles,

@@ -11,7 +11,7 @@ select
     dts_effective_to,
     {{ clean_integer('season') }} as nfl_season,
     {{ clean_integer('week') }} as nfl_week,
-    {{ clean_string('team_abbr') }} as nfl_team_id,
+    {{ clean_string('team_abbr') }} as nfl_team_code,
     {{ clean_string('player_gsis_id') }} as gsis_player_id,
     {{ clean_string('season_type') }} as nfl_game_type,
     {{ clean_decimal('efficiency', 16) }} as rushing_efficiency,

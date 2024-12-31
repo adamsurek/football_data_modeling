@@ -1,0 +1,6 @@
+﻿version: 2
+
+models:
+  
+  - name: combine__dim__games_teams
+    description: abc
