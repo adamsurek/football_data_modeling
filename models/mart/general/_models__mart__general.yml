@@ -2,5 +2,26 @@
 
 models:
   
+  - name: mart__general__defensive_stats
+    description: abc
+    
   - name: mart__general__passing_stats
     description: abc
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "total_passing_attempts is not null"
+
+  - name: mart__general__kicking_stats
+    description: abc
+
+  - name: mart__general__receiving_stats
+    description: abc
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "total_targets is not null"
+
+  - name: mart__general__rushing_stats
+    description: abc
+    tests:
+      - dbt_utils.expression_is_true:
+          expression: "total_carries is not null"
