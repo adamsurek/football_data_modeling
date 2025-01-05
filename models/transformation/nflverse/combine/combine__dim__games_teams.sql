@@ -49,6 +49,7 @@ select
     t1.nfl_season,
     t1.nfl_game_type,
     t1.nfl_game_week,
+    iff(t1.nfl_game_type = 'SB', t1.nfl_game_week + 1, t1.nfl_game_week) as nfl_game_week_ngs,
     t1.date_gameday,
     t1.nfl_team_code_away,
     t2.nfl_team_code_current as nfl_team_code_away_current,
