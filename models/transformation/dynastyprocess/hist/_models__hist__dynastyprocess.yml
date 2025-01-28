@@ -1,0 +1,25 @@
+﻿version: 2
+
+models:
+  
+  - name: hist__dim__dynastyprocess__fp_ecr
+    description: abc
+    columns:
+      - name: sk
+        tests:
+          - unique
+          - not_null
+    tests:
+      - one_flag_latest_per_pk
+      - one_pk_per_load
+
+  - name: hist__dim__dynastyprocess__fp_player_values
+    description: abc
+    columns:
+      - name: sk
+        tests:
+          - unique
+          - not_null
+    tests:
+      - one_flag_latest_per_pk
+      - one_pk_per_load

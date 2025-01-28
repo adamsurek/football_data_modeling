@@ -1,0 +1,10 @@
+﻿version: 2
+
+models:
+  
+  - name: clean__dim__dynastyprocess__fp_ecr
+    description: abc
+
+  - name: clean__dim__dynastyprocess__fp_player_values
+    description: abc
+        
