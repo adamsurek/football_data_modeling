@@ -37,6 +37,9 @@ models:
     transformation:
       nflverse:
         +schema: transformation_nflverse
+        
+      dynastyprocess:
+        +schema: transformation_dynastyprocess
       
     mart:
       general:

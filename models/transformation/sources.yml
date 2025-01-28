@@ -39,3 +39,12 @@ sources:
       - name: teams
       
       - name: trades
+        
+  - name: dynastyprocess
+    database: warehouse_prod
+    schema: staging_dynastyprocess
+    
+    tables:
+      - name: fp_ecr
+        
+      - name: fp_player_values
